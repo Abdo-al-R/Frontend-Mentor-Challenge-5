@@ -76,23 +76,19 @@ h1 span {
 .photo {
   width: 50%;
   position: relative;
+  background-color: hsl(277, 64%, 61%);
 }
 .photo .img1 {
   width: 100%;
   height: 100%;
   border-radius: 0 5px 5px 0;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
 }
 .img2 {
   display: none;
 }
-.overlay {
-  background-color: rgb(89, 0, 148);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  opacity: 0.5;
-}
+
 
 .attribution {
   font-family: monospace;
